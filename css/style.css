@@ -1,0 +1,21 @@
+html,body,#imgContainer,#imgContainer ul,#imgContainer ul li{
+	width: 100%;
+	height:100%;
+	margin:0;
+	padding:0;
+	overflow: hidden;
+}
+#imgContainer ul{
+	list-style: none;
+}
+#imgContainer li{
+	position: absolute;
+	display: flex;
+	-webkit-align-items:center;
+	-webkit-justify-content:center;
+	-webkit-backface-visibility:hidden;
+}
+#imgContainer img{
+	max-height: 100%;
+	max-width: 100%;
+}
